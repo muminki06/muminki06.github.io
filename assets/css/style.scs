@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1, h2, h3, h4,  p {
+color: pink;
+font-family: cursive;
+text-align: center;
+text-shadow: 3px 3px 6px #fce6eb
+}
+
+h5 {
+  color: pink;
+  font-family: serif;
+  text-align: center;
+  text-shadow: 3px 3px 6px #fce6eb;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+table {
+  font-family: serif;
+  color: pink;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #fce6eb;
+  text-align: center;
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+background-color: #ffedf1;
+}
+
+ul {
+  font-family: cursive;
+  color: pink;
+  margin: 0 auto;
+}
